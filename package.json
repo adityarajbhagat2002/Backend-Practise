@@ -4,7 +4,9 @@
   "description": "",
   "main": "1-module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev" : "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/adityarajbhagat2002/Backend-Practise#readme",
   "dependencies": {
     "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
