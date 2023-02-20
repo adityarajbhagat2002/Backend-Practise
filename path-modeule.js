@@ -12,5 +12,9 @@ console.log(base)
 console.log(basepath)
 
 const absolute=path.resolve(__dirname,'Content')
+
 console.log(absolute)
+
+
+
 
